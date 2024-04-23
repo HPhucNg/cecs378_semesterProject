@@ -1,6 +1,6 @@
 
 // Function to generate a random password
-function generatePassword(length = 20) {
+function generatePassword(length = 100) {
     const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-=";
     let password = "";
     for (let i = 0, n = charset.length; i < length; ++i) {
